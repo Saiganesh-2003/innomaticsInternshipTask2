@@ -23,6 +23,8 @@ nav a {
     text-align: center;
     padding: 50px;
     background: url('https://wallpaperaccess.com/full/1076693.jpg');
+    height: 100vh;
+
 }
 .btn {
     display: inline-block;
@@ -55,7 +57,7 @@ nav a {
 }
 h2,h3{
     color: rgb(143, 97, 38);
-    font-family: sans-serif;
+    font-family:'Roboto' sans-serif;
 }
 img{
     border-radius: 5px;
@@ -128,4 +130,22 @@ nav :hover{
         text-align: center;
         padding: 10px;
     }
+
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+#para1{
+    
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: rgb(238, 238, 28);
+    font-style: normal;
+}
+#para2{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
 }
